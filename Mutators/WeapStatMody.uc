@@ -1,72 +1,43 @@
 // <--Sharp-->
 // Single
-class'CsHDMut.W_Single'.default.ReloadRate=1.45;  
-class'CsHDMut.W_Single'.default.ReloadAnimRate=1.400000; 
 class'KFMod.Single'.default.ReloadRate=1.45; 
 class'KFMod.Single'.default.ReloadAnimRate=1.400000;  
 // Dualies
-class'CsHDMut.W_Dualies'.default.Weight=2.0;  
-class'CsHDMut.W_DualiesPickup'.default.Weight=2.0; 
-class'CsHDMut.W_Dualies'.default.ReloadRate=2.475; 
-class'CsHDMut.W_Dualies'.default.ReloadAnimRate=1.400000;
 class'KFMod.Dualies'.default.ReloadRate=2.475; 
 class'KFMod.Dualies'.default.ReloadAnimRate=1.400000; 
 class'KFMod.Dualies'.default.Weight=2.0;  
 class'KFMod.DualiesPickup'.default.Weight=2.0;  
 // Magnum
-class'CsHDMut.W_Magnum44Pistol'.default.ReloadRate=2.033; 
-class'CsHDMut.W_Magnum44Pistol'.default.ReloadAnimRate=1.400000; 
-class'CsHDMut.W_Magnum44Fire'.default.DamageMax=125;
 class'KFMod.DamTypeMagnum44Pistol'.default.HeadShotDamageMult=1.50000; 
 class'KFMod.Magnum44Pistol'.default.ReloadRate=2.033; 
 class'KFMod.Magnum44Pistol'.default.ReloadAnimRate=1.400000; 
 class'KFMod.Magnum44Fire'.default.DamageMax=125;
 // Dual44Magnum
-class'CsHDMut.W_Dual44Magnum'.default.ReloadRate=3.333; 
-class'CsHDMut.W_Dual44Magnum'.default.ReloadAnimRate=1.400000; 
-class'CsHDMut.W_Dual44MagnumFire'.default.FireRate=0.1;
-class'CsHDMut.W_Dual44MagnumFire'.default.DamageMax=125;
 class'KFMod.Dual44Magnum'.default.ReloadRate=3.333; 
 class'KFMod.Dual44Magnum'.default.ReloadAnimRate=1.400000; 
 class'KFMod.Dual44MagnumFire'.default.FireRate=0.1;
 class'KFMod.Dual44MagnumFire'.default.DamageMax=125;
 // MK23
-class'CsHDMut.W_MK23Pistol'.default.ReloadRate=2.253; 
-class'CsHDMut.W_MK23Pistol'.default.ReloadAnimRate=1.400000; 
 class'KFMod.DamTypeMK23Pistol'.default.HeadShotDamageMult=1.280000; 
 class'KFMod.MK23Pistol'.default.ReloadRate=2.275;//2.033; //2.6
 class'KFMod.MK23Pistol'.default.ReloadAnimRate=1.20;//1.400000; //1.0
 // DualMK23
-class'CsHDMut.W_DualMK23Pistol'.default.ReloadRate=3.333; 
-class'CsHDMut.W_DualMK23Pistol'.default.ReloadAnimRate=1.400000; 
 class'KFMod.DualMK23Pistol'.default.ReloadRate=3.333; 
 class'KFMod.DualMK23Pistol'.default.ReloadAnimRate=1.400000; 
 // Deagle
-class'CsHDMut.W_DeagleFire'.default.FireRate=0.18; 
-class'CsHDMut.W_Deagle'.default.ReloadRate=1.7; 
-class'CsHDMut.W_Deagle'.default.ReloadAnimRate=1.400000; 
 class'KFMod.DamTypeDeagle'.default.HeadShotDamageMult=1.280000;  
 class'KFMod.DeagleFire'.default.FireRate=0.18; 
 class'KFMod.Deagle'.default.ReloadRate=1.7; 
 class'KFMod.Deagle'.default.ReloadAnimRate=1.400000; 
 // GoldenDeagle
-class'CsHDMut.W_GoldenDeagleFire'.default.FireRate=0.18; 
-class'CsHDMut.W_GoldenDeagle'.default.ReloadRate=1.7; 
-class'CsHDMut.W_GoldenDeagle'.default.ReloadAnimRate=1.400000; 
 class'KFMod.GoldenDeagleFire'.default.FireRate=0.18; 
 class'KFMod.GoldenDeagle'.default.ReloadRate=1.7; 
 class'KFMod.GoldenDeagle'.default.ReloadAnimRate=1.400000; 
 // DualDeagle
-class'CsHDMut.W_DualDeagleFire'.default.FireRate=0.09; 
-class'CsHDMut.W_DualDeagle'.default.ReloadRate=2.733; 
-class'CsHDMut.W_DualDeagle'.default.ReloadAnimRate=1.400000; 
 class'KFMod.DualDeagleFire'.default.FireRate=0.09; 
 class'KFMod.DualDeagle'.default.ReloadRate=2.733; 
 class'KFMod.DualDeagle'.default.ReloadAnimRate=1.400000; 
 // GoldenDualDeagle
-class'CsHDMut.W_GoldenDualDeagleFire'.default.FireRate=0.09; 
-class'CsHDMut.W_GoldenDualDeagle'.default.ReloadRate=2.733; 
-class'CsHDMut.W_GoldenDualDeagle'.default.ReloadAnimRate=1.400000; 
 class'KFMod.GoldenDualDeagleFire'.default.FireRate=0.09; 
 class'KFMod.GoldenDualDeagle'.default.ReloadRate=2.733; 
 class'KFMod.GoldenDualDeagle'.default.ReloadAnimRate=1.400000; 
@@ -252,11 +223,6 @@ class'KFMod.CrossbuzzsawFire'.default.ProjPerFire=2;
 
 // <--Medic-->  
 // MP7M
-class'CsHDMut.W_MP7MMedicGun'.default.ReloadRate=2.433; 
-class'CsHDMut.W_MP7MMedicGun'.default.ReloadAnimRate=1.300000; 
-class'CsHDMut.W_MP7MAltFire'.default.ProjPerFire=3; 
-class'CsHDMut.W_MP7MAltFire'.default.FireRate=0.2; 
-class'CsHDMut.W_MP7MFire'.default.Spread=0; 
 class'KFMod.DamTypeMP7M'.default.HeadShotDamageMult=1.400000; 
 class'KFMod.MP7MFire'.default.Spread=0; 
 class'KFMod.MP7MMedicGun'.default.ReloadRate=2.433; 
@@ -265,13 +231,6 @@ class'KFMod.MP7MAltFire'.default.ProjPerFire=3;
 class'KFMod.MP7MAltFire'.default.FireRate=0.2; 
 class'KFMod.MP7MAmmo'.default.MaxAmmo=530; 
 // MP5M
-class'CsHDMut.W_MP5MMedicGun'.default.ReloadRate=2.433; 
-class'CsHDMut.W_MP5MMedicGun'.default.ReloadAnimRate=1.300000;
-class'CsHDMut.W_MP5MAltFire'.default.ProjPerFire=3; 
-class'CsHDMut.W_MP5MAltFire'.default.FireRate=0.2; 
-class'CsHDMut.W_MP5MHealingProjectile'.default.HealBoostAmount=35; 
-class'CsHDMut.W_MP5MHealingProjectile_CLIENT'.default.HealBoostAmount=35; 
-class'CsHDMut.W_MP5MFire'.default.Spread=0; 
 class'KFMod.DamTypeMP5M'.default.HeadShotDamageMult=1.350000; 
 class'KFMod.MP5MMedicGun'.default.ReloadRate=2.433; 
 class'KFMod.MP5MMedicGun'.default.ReloadAnimRate=1.300000; 
@@ -281,19 +240,11 @@ class'KFMod.MP5MAmmo'.default.MaxAmmo=530;
 class'KFMod.MP5MHealinglProjectile'.default.HealBoostAmount=35; 
 class'KFMod.MP5MFire'.default.Spread=0;
 // CamoMP5M
-class'CsHDMut.W_CamoMP5MMedicGun'.default.ReloadRate=2.433; 
-class'CsHDMut.W_CamoMP5MMedicGun'.default.ReloadAnimRate=1.300000; 
-class'CsHDMut.W_CamoMP5MFire'.default.Spread=0;  
 class'KFMod.CamoMP5MFire'.default.Spread=0; 
 class'KFMod.CamoMP5MMedicGun'.default.ReloadRate=2.433; 
 class'KFMod.CamoMP5MMedicGun'.default.ReloadAnimRate=1.300000; 
 class'KFMod.CamoMP5MAmmo'.default.MaxAmmo=530; 
 // KrissM
-class'CsHDMut.W_KrissMMedicGun'.default.ReloadRate=2.433; 
-class'CsHDMut.W_KrissMMedicGun'.default.ReloadAnimRate=1.300000; 
-class'CsHDMut.W_KrissMAltFire'.default.ProjPerFire=3; 
-class'CsHDMut.W_KrissMAltFire'.default.FireRate=0.2; 
-class'CsHDMut.W_KrissMFire'.default.Spread=0; 
 class'KFMod.DamTypeKrissM'.default.HeadShotDamageMult=1.350000; 
 class'KFMod.KrissMMedicGun'.default.ReloadRate=2.433; 
 class'KFMod.KrissMMedicGun'.default.ReloadAnimRate=1.300000; 
@@ -307,13 +258,6 @@ class'KFMod.NeonKrissMMedicGun'.default.ReloadAnimRate=1.300000;
 class'KFMod.NeonKrissMAmmo'.default.MaxAmmo=550; 
 class'KFMod.NeonKrissMFire'.default.Spread=0; 
 // M7A3M
-class'CsHDMut.W_M7A3MMedicGun'.default.ReloadRate=2.222; 
-class'CsHDMut.W_M7A3MMedicGun'.default.ReloadAnimRate=1.300000; 
-class'CsHDMut.W_M7A3MAltFire'.default.ProjPerFire=3; 
-class'CsHDMut.W_M7A3MAltFire'.default.FireRate=0.2; 
-class'CsHDMut.W_M7A3MHealingProjectile'.default.HealBoostAmount=35; 
-class'CsHDMut.W_M7A3MHealingProjectile_CLIENT'.default.HealBoostAmount=35; 
-class'CsHDMut.W_M7A3MFire'.default.Spread=0; 
 class'KFMod.DamTypeM7A3M'.default.HeadShotDamageMult=1.300000;
 class'KFMod.M7A3MMedicGun'.default.ReloadRate=2.222; 
 class'KFMod.M7A3MMedicGun'.default.ReloadAnimRate=1.300000; 
@@ -335,35 +279,22 @@ class'KFMod.BlowerBileProjectile'.default.Damage=39;
 
 // <--Mando-->
 // Bullpup
-class'CsHDMut.W_Bullpup'.default.ReloadRate=1.633;
-class'CsHDMut.W_Bullpup'.default.ReloadAnimRate=1.225;
 class'KFMod.Bullpup'.default.ReloadRate=1.633;
 class'KFMod.Bullpup'.default.ReloadAnimRate=1.225;
 class'KFMod.DamTypeBullpup'.default.HeadShotDamageMult=1.350000;
 // TSMG
-class'CsHDMut.W_ThompsonSMG'.default.ReloadRate=2.7;
-class'CsHDMut.W_ThompsonSMG'.default.ReloadAnimRate=1.225;
 class'KFMod.DamTypeThompson'.default.HeadShotDamageMult=1.350000; 
 class'KFMod.ThompsonSMG'.default.ReloadRate=2.7;
 class'KFMod.ThompsonSMG'.default.ReloadAnimRate=1.225;
 // TSMGDrum
-class'CsHDMut.W_ThompsonDrumSMG'.default.ReloadRate=2.85;
-class'CsHDMut.W_ThompsonDrumSMG'.default.ReloadAnimRate=1.225;
 class'KFMod.DamTypeThompsonDrum'.default.HeadShotDamageMult=1.350000; 
 class'KFMod.ThompsonDrumSMG'.default.ReloadRate=2.85;
 class'KFMod.ThompsonDrumSMG'.default.ReloadAnimRate=1.225;
 // SPTSMG
-class'CsHDMut.W_SPThompsonSMG'.default.ReloadRate=2.85;
-class'CsHDMut.W_SPThompsonSMG'.default.ReloadAnimRate=1.225;
 class'KFMod.DamTypeSPThompson'.default.HeadShotDamageMult=1.350000; 
 class'KFMod.SPThompsonSMG'.default.ReloadRate=2.85;
 class'KFMod.SPThompsonSMG'.default.ReloadAnimRate=1.225;
 // M4203
-class'CsHDMut.W_M4203AssaultRifle'.default.InventoryGroup=3; 
-class'CsHDMut.W_M4203Pickup'.default.cost=2500; 
-class'CsHDMut.W_M4203BulletFire'.default.RecoilRate=0.0120; 
-class'CsHDMut.W_M4203AssaultRifle'.default.ReloadRate=2.433; 
-class'CsHDMut.W_M4203AssaultRifle'.default.ReloadAnimRate=1.300000;
 class'KFMod.DamTypeM4203AssaultRifle'.default.HeadShotDamageMult=1.30000;  
 class'KFMod.M4203AssaultRifle'.default.InventoryGroup=3; 
 class'KFMod.M4203Pickup'.default.cost=2500; 
@@ -372,17 +303,11 @@ class'KFMod.M4203AssaultRifle'.default.ReloadRate=2.433;
 class'KFMod.M4203AssaultRifle'.default.ReloadAnimRate=1.300000;
 class'KFMod.M4203Ammo'.default.MaxAmmo=440; 
 // AK
-class'CsHDMut.W_AK47Fire'.default.DamageMax=58; 
-class'CsHDMut.W_AK47AssaultRifle'.default.ReloadRate=2.433;
-class'CsHDMut.W_AK47AssaultRifle'.default.ReloadAnimRate=1.225;
 class'KFMod.DamTypeAK47AssaultRifle'.default.HeadShotDamageMult=1.300000;  
 class'KFMod.AK47Fire'.default.DamageMax=58;  
 class'KFMod.AK47AssaultRifle'.default.ReloadRate=2.433;
 class'KFMod.AK47AssaultRifle'.default.ReloadAnimRate=1.225;
 // GoldenAK
-class'CsHDMut.W_GoldenAK47Fire'.default.DamageMax=58;
-class'CsHDMut.W_GoldenAK47AssaultRifle'.default.ReloadRate=2.433;
-class'CsHDMut.W_GoldenAK47AssaultRifle'.default.ReloadAnimRate=1.225;
 class'KFMod.GoldenAK47Fire'.default.DamageMax=58;
 class'KFMod.GoldenAK47AssaultRifle'.default.ReloadRate=2.433;
 class'KFMod.GoldenAK47AssaultRifle'.default.ReloadAnimRate=1.225;
@@ -391,32 +316,20 @@ class'KFMod.NeonAK47Fire'.default.DamageMax=58;
 class'KFMod.NeonAK47AssaultRifle'.default.ReloadRate=2.433;
 class'KFMod.NeonAK47AssaultRifle'.default.ReloadAnimRate=1.225;
 // M4
-class'CsHDMut.W_M4Fire'.default.DamageMax=48;  
-class'CsHDMut.W_M4AssaultRifle'.default.ReloadRate=2.433;
-class'CsHDMut.W_M4AssaultRifle'.default.ReloadAnimRate=1.225;
 class'KFMod.DamTypeM4AssaultRifle'.default.HeadShotDamageMult=1.30000;    
 class'KFMod.M4AssaultRifle'.default.ReloadRate=2.433;
 class'KFMod.M4AssaultRifle'.default.ReloadAnimRate=1.225;
 class'KFMod.M4Fire'.default.DamageMax=48;
 // CamoM4
-class'CsHDMut.W_CamoM4Fire'.default.DamageMax=48;  
-class'CsHDMut.W_CamoM4AssaultRifle'.default.ReloadRate=2.433;
-class'CsHDMut.W_CamoM4AssaultRifle'.default.ReloadAnimRate=1.225;
 class'KFMod.CamoM4Fire'.default.DamageMax=48;
 class'KFMod.CamoM4AssaultRifle'.default.ReloadRate=2.433;
 class'KFMod.CamoM4AssaultRifle'.default.ReloadAnimRate=1.225;
 // MKB42
-class'CsHDMut.W_MKb42Fire'.default.DamageMax=59; 
-class'CsHDMut.W_MKb42AssaultRifle'.default.ReloadRate=2.433;
-class'CsHDMut.W_MKb42AssaultRifle'.default.ReloadAnimRate=1.225;
 class'KFMod.DamTypeMKb42AssaultRifle'.default.HeadShotDamageMult=1.3050000; 
 class'KFMod.MKb42Fire'.default.DamageMax=59; 
 class'KFMod.MKb42AssaultRifle'.default.ReloadRate=2.433;
 class'KFMod.MKb42AssaultRifle'.default.ReloadAnimRate=1.225;
 // Scar
-class'CsHDMut.W_SCARMK17AssaultRifle'.default.ReloadRate=2.433;
-class'CsHDMut.W_SCARMK17AssaultRifle'.default.ReloadAnimRate=1.225;
-class'CsHDMut.W_SCARMK17Fire'.default.DamageMax=69;   
 class'KFMod.DamTypeSCARMK17AssaultRifle'.default.HeadShotDamageMult=1.30000; 
 class'KFMod.SCARMK17Fire'.default.DamageMax=69; 
 class'KFMod.SCARMK17AssaultRifle'.default.ReloadRate=2.433;
@@ -426,10 +339,6 @@ class'KFMod.NeonSCARMK17Fire'.default.DamageMax=69;
 class'KFMod.NeonSCARMK17AssaultRifle'.default.ReloadRate=2.433;
 class'KFMod.NeonSCARMK17AssaultRifle'.default.ReloadAnimRate=1.225;
 // FNFAL
-class'CsHDMut.W_FNFAL_ACOG_AssaultRifle'.default.ReloadRate=2.433; 
-class'CsHDMut.W_FNFAL_ACOG_AssaultRifle'.default.ReloadAnimRate=1.300000;
-class'CsHDMut.W_FNFAL_ACOG_Pickup'.default.BuyClipSize=25; 
-class'CsHDMut.W_FNFALFire'.default.DamageMax=70;  
 class'KFMod.DamTypeFNFALAssaultRifle'.default.HeadShotDamageMult=1.300000;
 class'KFMod.FNFAL_ACOG_AssaultRifle'.default.ReloadRate=2.433; 
 class'KFMod.FNFAL_ACOG_AssaultRifle'.default.ReloadAnimRate=1.300000;
@@ -437,9 +346,6 @@ class'KFMod.FNFALFire'.default.DamageMax=70;
 
 // <--Fire-->
 // MAC10
-class'CsHDMut.W_MAC10Fire'.default.DamageMax=55; 
-class'CsHDMut.W_MAC10Fire'.default.RecoilRate=0.010; 
-class'CsHDMut.W_MAC10Fire'.default.Spread=0.000;
 class'KFMod.MAC10Fire'.default.DamageMax=55; 
 class'KFMod.MAC10Fire'.default.RecoilRate=0.010; 
 class'KFMod.MAC10Fire'.default.Spread=0.000; 
